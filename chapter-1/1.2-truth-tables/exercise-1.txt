@@ -1,0 +1,11 @@
+Make truth tables for the following formulas:
+	(a) ¬P ∨ Q.
+	(b) (S ∨ G) ∧ (¬S ∨ ¬G). 
+
+Solution (a)
+	P  Q  ¬P ∨ Q
+	------------
+	t  t   f T
+	t  f   f F
+	f  t   t T
+	f  f   t T
