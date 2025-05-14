@@ -3,9 +3,19 @@ Make truth tables for the following formulas:
 	(b) (S ∨ G) ∧ (¬S ∨ ¬G). 
 
 Solution (a)
-	P  Q  ¬P ∨ Q
-	------------
-	t  t   f T
-	t  f   f F
-	f  t   t T
-	f  f   t T
+	P  |  Q  |  ¬P  ∨  Q
+	--------------------
+	T     T      F  T
+	T     F      F  F
+	F     T      T  T
+	F     F      T  T
+		        *
+
+Solution (b)
+	S  |  G  |  (S  ∨  G)  |  ∧  |  (¬S  ∨  ¬G)
+	-------------------------------------------
+	T     T
+	T     F
+	F     T
+	F     F
+
