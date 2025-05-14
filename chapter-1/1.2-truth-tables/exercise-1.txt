@@ -9,13 +9,16 @@ Solution (a)
 	T     F      F  F
 	F     T      T  T
 	F     F      T  T
-		        *
+		        @
 
 Solution (b)
 	S  |  G  |  (S  ∨  G)  |  ∧  |  (¬S  ∨  ¬G)
 	-------------------------------------------
-	T     T
-	T     F
-	F     T
-	F     F
+	T     T         T         F       F  F   F
+	T     F         F         F       F  T   T
+	F     T         T         T       T  T   F
+	F     F         F         F       T  T   T
+                        *         @          *
 
+* = Partial result.
+@ = Final table solution.
